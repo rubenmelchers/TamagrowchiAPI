@@ -5,7 +5,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 $format = $_SERVER['HTTP_ACCEPT'];
 
 $table = "tamagrowchi";
-$fields = [ 'name', 'data', 'time', 'waterboolean' ];
+$fields = [ 'soil', 'time', 'waterboolean' ];
 
 header('Access-Control-Allow-Origin: http://localhost:8888');
 
